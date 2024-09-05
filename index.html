@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>one page</title>
+  <style>
+.inside{
+    text-align: center; 
+   background-color: grey;
+  
+   
+}
+a{
+    color: beige;
+    text-decoration: none;
+   margin: 5em;
+
+}
+.one{
+ 
+background-color:purple;
+background-image: url(image.png);
+background-size: cover;
+
+
+}
+.head{
+  background-color: blue;
+  padding: 8px 16px;
+}
+.menu-icon{
+  display: none;
+  
+}
+
+@media(max-width: 740px){
+  .links{
+    display: none;
+    /* text-align: center; */ 
+
+
+  }
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+  }
+  .menu-icon:hover +.links{
+   display: block;
+  }
+  .links a{
+    display: block; 
+   
+  }
+}
+
+
+
+
+  </style>
+</head>
+<body>
+    <nav class="inside">
+      <label for="" class="menu-icon">
+        <i class="fa-solid fa-bars"></i></i>
+    </label>
+    <div class="links">   
+    <a href="">about us</a>
+    <a href="">contact us</a>
+    <a href="">home</a>
+    <a href="">location</a>
+  </div>
+    <div class="one">
+   <h1>Resort center</h1>
+   <p>This is a hotel that provides both hospitality such as accomodation <br>facilities and provides sufficient serve as far food is concerned</p>
+ <a href="index.html" class="head"> learn more</a>
+</div>
+       
+</nav>
+
+
+
+<script src="https://kit.fontawesome.com/6bb807c623.js" crossorigin="anonymous"></script>
+</body>
+</html>
